@@ -58,12 +58,21 @@ curl http://localhost:8000/api/cep/01001000
 #### Resposta:
 ```bash
 {
-  "cep": "01001-000",
-  "logradouro": "Praça da Sé",
-  "bairro": "Sé",
-  "localidade": "São Paulo",
-  "uf": "SP"
+  "cep": "06243-110",
+  "logradouro": "Rua Rocha Pombo",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Jardim Elvira",
+  "localidade": "Osasco",
+  "uf": "SP",
+  "estado": "São Paulo",
+  "regiao": "Sudeste",
+  "ibge": "3534401",
+  "gia": "4923",
+  "ddd": "11",
+  "siafi": "6789"
 }
+
 ```
 
 ## 🧪 Testes
